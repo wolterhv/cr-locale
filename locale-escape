@@ -1,4 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
+
+# Disclaimer: I don't remember authoring this script.  Let me know if you want
+# to claim credit for it.
 
 import sys
 import re
