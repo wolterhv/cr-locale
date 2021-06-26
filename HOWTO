@@ -1,0 +1,4 @@
+1. Editar locale
+2. sudo localedef -i <locale> -f UTF-8 <locale>.UTF-8 -c -v
+3. sudo cp <locale> /usr/share/i18n/locales/
+4. sudo locale-gen
