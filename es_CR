@@ -24,31 +24,31 @@ territory  "Costa Rica"
 revision   "1.0"
 date       "2013-02-18"
 %
-category  "es_CR:2000";LC_IDENTIFICATION
-category  "es_CR:2000";LC_CTYPE
-category  "es_CR:2000";LC_COLLATE
-category  "es_CR:2000";LC_TIME
-category  "es_CR:2000";LC_NUMERIC
-category  "es_CR:2000";LC_MONETARY
-category  "es_CR:2000";LC_MESSAGES
-category  "es_CR:2000";LC_PAPER
-category  "es_CR:2000";LC_NAME
-category  "es_CR:2000";LC_ADDRESS
-category  "es_CR:2000";LC_TELEPHONE
+category  "i18n:2012";LC_IDENTIFICATION
+category  "i18n:2012";LC_CTYPE
+category  "i18n:2012";LC_COLLATE
+category  "i18n:2012";LC_TIME
+category  "i18n:2012";LC_NUMERIC
+category  "i18n:2012";LC_MONETARY
+category  "i18n:2012";LC_MESSAGES
+category  "i18n:2012";LC_PAPER
+category  "i18n:2012";LC_NAME
+category  "i18n:2012";LC_ADDRESS
+category  "i18n:2012";LC_TELEPHONE
+category  "i18n:2012";LC_MEASUREMENT
 
 END LC_IDENTIFICATION
-
-LC_COLLATE
-copy "es_ES"
-END LC_COLLATE
 
 LC_CTYPE
 copy "es_ES"
 END LC_CTYPE
 
+LC_COLLATE
+copy "es_ES"
+END LC_COLLATE
+
 LC_MESSAGES
-yesexpr "<U005E><U005B><U0073><U0053><U0079><U0059><U005D><U002E><U002A>"
-noexpr  "<U005E><U005B><U006E><U004E><U005D><U002E><U002A>"
+copy "es_ES"
 END LC_MESSAGES
 
 LC_MONETARY
@@ -151,12 +151,13 @@ postal_fmt    "<U0025><U0066><U0025><U004E><U0025><U0061><U0025><U004E>/
 <U004E><U0025><U0063><U0025><U004E>"
 country_name  "<U0043><U006F><U0073><U0074><U0061><U0020><U0052><U0069><U0063><U0061>"
 country_post  "<U0043><U0052>"
+country_ab2   "<U0043><U0052>"
+country_ab3   "<U0043><U0052><U0049>"
+country_num   188
 country_car   "<U0043><U0052>"
 country_isbn  "9930,9977,9968"
 lang_name     "<U0045><U0073><U0070><U0061><U00C3><U00B1><U006F><U006C>"
 lang_ab       "<U0065><U0073>"
 lang_term     "<U0073><U0070><U0061>"
-country_ab2   "<U0043><U0052>"
-country_ab3   "<U0043><U0052><U0049>"
-country_num   188
+lang_lib      "<U0073><U0070><U0061>"
 END LC_ADDRESS
